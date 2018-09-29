@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #222;
+  font: normal normal normal 1rem/1.6 Nunito Sans, Helvetica, Arial, sans-serif;
+}
+
+.app {
+  width: 100%;
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.title {
+  text-align: center;
+}
+
+.heading {
+  border-bottom: 1px solid #aaa;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .app img,
+  .app video {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
